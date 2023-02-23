@@ -164,8 +164,8 @@ const Graph = () => {
     displayPath(shortestPath);
   };
 
-  return { graph, knightMoves };
+  return { knightMoves };
 };
 
-const knight = Graph();
-knight.knightMoves([1, 0], [7, 6]);
+const board = Graph();
+board.knightMoves([1, 0], [7, 6]);
